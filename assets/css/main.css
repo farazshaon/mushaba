@@ -853,8 +853,10 @@ header {
     -ms-transform: translateX(200px);
     transform: translateX(200px); } }
 .design {
-  background-color: #ffffff;
-  padding: 120px 0px;
+  background-image: url(../images/design/design-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 170px 0px;
   overflow: hidden; }
 
 .design__thumb {
@@ -1148,9 +1150,14 @@ header {
   .work__item h2 {
     margin-bottom: 0px; } }
 .shot {
-  background-color: #ffffff;
+  background-image: url(../images/screenshot/shot-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding-top: 120px;
-  padding-bottom: 105px; }
+  text-align: center;
+  padding-bottom: 105px; 
+}
 
 .shot__item {
   padding: 20px 0px;
