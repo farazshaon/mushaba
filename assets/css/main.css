@@ -112,7 +112,7 @@ h1 > a {
   font-family: "Josefin Sans", sans-serif;
   font-size: 76px;
   line-height: 86px;
-  font-weight: 700;
+  font-weight: 600;
   color: #000;
   font-style: normal;
   text-align: left;
@@ -123,7 +123,7 @@ h2 > a {
   font-family: "Josefin Sans", sans-serif;
   font-size: 54px;
   line-height: 64px;
-  font-weight: 700;
+  font-weight: 600;
   color: #000;
   font-style: normal;
   text-align: left;
@@ -134,7 +134,7 @@ h3 > a {
   font-family: "Josefin Sans", sans-serif;
   font-size: 32px;
   line-height: 42px;
-  font-weight: 700;
+  font-weight: 600;
   color: #000;
   font-style: normal;
   text-align: left;
@@ -145,7 +145,7 @@ h6 > a {
   font-family: "Josefin Sans", sans-serif;
   font-size: 24px;
   line-height: 28px;
-  font-weight: 700;
+  font-weight: 600;
   color: #000;
   font-style: normal;
   text-align: left;
@@ -157,7 +157,7 @@ h6 > a {
     font-family: "Josefin Sans", sans-serif;
     font-size: 54px;
     line-height: 64px;
-    font-weight: 700;
+    font-weight: 600;
     color: #000;
     font-style: normal;
     text-align: left;
@@ -168,7 +168,7 @@ h6 > a {
     font-family: "Josefin Sans", sans-serif;
     font-size: 32px;
     line-height: 42px;
-    font-weight: 700;
+    font-weight: 600;
     color: #000;
     font-style: normal;
     text-align: left;
@@ -179,7 +179,7 @@ h6 > a {
     font-family: "Josefin Sans", sans-serif;
     font-size: 24px;
     line-height: 28px;
-    font-weight: 700;
+    font-weight: 600;
     color: #000;
     font-style: normal;
     text-align: left;
@@ -190,7 +190,7 @@ h6 > a {
     font-family: "Josefin Sans", sans-serif;
     font-size: 20px;
     line-height: 24px;
-    font-weight: 700;
+    font-weight: 600;
     color: #000;
     font-style: normal;
     text-align: left;
@@ -254,7 +254,7 @@ h6 > a {
   -ms-border-radius: 25px;
   border-radius: 25px; }
   .button:hover {
-    background-color: #006bff;
+    background-color: #F6813B;
     color: #ffffff; }
 
 .scrollToTop {
@@ -263,7 +263,7 @@ h6 > a {
   right: 24px;
   width: 45px;
   height: 45px;
-  background-color: #006bff;
+  background-color: #F6813B;
   border-radius: 5px;
   color: #ffffff !important;
   line-height: 45px;
@@ -279,7 +279,7 @@ h6 > a {
   transform: translateY(100%); }
   .scrollToTop:hover {
     background-color: #ffffff;
-    color: #006bff !important;
+    color: #F6813B !important;
     -webkit-box-shadow: 0px 7.12744px 35.6372px rgba(0, 0, 0, 0.25);
     box-shadow: 0px 7.12744px 35.6372px rgba(0, 0, 0, 0.25); }
   .scrollToTop.active {
@@ -287,7 +287,7 @@ h6 > a {
     -webkit-transform: translateY(0%);
     -ms-transform: translateY(0%);
     transform: translateY(0%);
-    color: #006bff; }
+    color: #F6813B; }
 
 @media only screen and (max-width: 1199px) {
   .scrollToTop {
@@ -350,7 +350,7 @@ header {
 .download {
   -webkit-box-shadow: 0px 0px 0px;
   box-shadow: 0px 0px 0px;
-  background-color: #006bff;
+  background-color: #F6813B;
   color: #ffffff;
   margin-left: 7px;
   padding: 6px 30px 6px !important; }
@@ -358,7 +358,7 @@ header {
     background-color: #ffffff;
     -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-    color: #006bff; }
+    color: #F6813B; }
 
 .navbar-toggler {
   border: none;
@@ -452,7 +452,7 @@ header {
   .navbar-collapse .download {
     margin-left: 0px;
     margin-bottom: 0px;
-    background-color: #006bff; }
+    background-color: #F6813B; }
     .navbar-collapse .download:hover {
       color: #ffffff; } }
 .hero {
@@ -718,7 +718,7 @@ header {
 
 .invest__content h6 {
   margin-bottom: 28px;
-  color: #006bff; }
+  color: #F6813B; }
 .invest__content h2 {
   margin-bottom: 23px; }
 .invest__content p {
@@ -774,7 +774,7 @@ header {
 
 .wallet__content h6 {
   margin-bottom: 28px;
-  color: #006bff; }
+  color: #F6813B; }
 .wallet__content h2 {
   margin-bottom: 12px; }
 .wallet__content p {
@@ -787,7 +787,7 @@ header {
   padding: 0px; }
 .wallet__content li {
   list-style-position: outside;
-  font-weight: 700;
+  font-weight: 600;
   display: flex;
   align-items: center;
   margin-top: 0px;
@@ -863,7 +863,7 @@ header {
   direction: rtl; }
 
 .design__content h6 {
-  color: #006bff;
+  color: #F6813B;
   margin-bottom: 28px; }
 .design__content h2 {
   margin-bottom: 22px; }
@@ -895,7 +895,7 @@ header {
     margin-bottom: 8px; }
   .design__content__cards__item p {
     color: #545a79;
-    font-weight: 700;
+    font-weight: 600;
     text-align: center; }
     .design__content__cards__item p::after {
       content: "";
@@ -946,7 +946,7 @@ header {
   margin-right: auto;
   margin-left: auto; }
   .choice__title h6 {
-    color: #006bff;
+    color: #F6813B;
     margin-bottom: 29px; }
   .choice__title h2 {
     margin-bottom: 22px; }
@@ -1036,7 +1036,7 @@ header {
     animation-delay: 3s; }
 
 .payment__content h6 {
-  color: #006bff;
+  color: #F6813B;
   margin-bottom: 25px; }
 .payment__content h2 {
   margin-bottom: 22px; }
@@ -1050,7 +1050,7 @@ header {
   padding: 0px; }
 .payment__content li {
   list-style-position: outside;
-  font-weight: 700;
+  font-weight: 600;
   display: flex;
   align-items: center;
   margin-top: 0px;
@@ -1078,11 +1078,11 @@ header {
     width: auto;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: #006bff;
+    background-color: #F6813B;
     color: #ffffff; }
     .payment__content .hero__content__link .button:hover {
       background-color: #ffffff;
-      color: #006bff; }
+      color: #F6813B; }
 
 @media only screen and (max-width: 1199px) {
   .payment__area {
@@ -1187,7 +1187,7 @@ header {
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      background-color: #006bff;
+      background-color: #F6813B;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
@@ -1243,18 +1243,22 @@ header {
         max-width: 18px;
         height: auto; } }
 .pricing {
-  background-color: #f7f6fe;
+  /* background-color: #f7f6fe; */
   background-repeat: no-repeat;
   background-size: cover;
+  border-top: 2px solid #555555;
+  border-bottom: 2px solid #555555;
   background-position: center center; }
 
 .pricing__area {
-  padding: 120px 0px; }
+  padding-top: 60px;
+  padding-bottom: 20px;
+ }
   .pricing__area .choice__title {
     margin-bottom: 51px; }
 
 .pricing__item {
-  padding: 40px;
+  padding: 80px 50px 10px;
   background-color: #ffffff;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -1272,13 +1276,34 @@ header {
     border-radius: 20px;
     margin-bottom: 20px; }
   .pricing__item h6 {
+    font-size: 26px;
+    color: #000;
     margin-bottom: 22px; }
+    .pricing__item h3 {
+      color: #F6813B;
+      font-size: 40px;
+      margin-bottom: 22px; }
+  .pricing__item h5 {
+    color: #F6813B;
+    font-size: 24px;
+    margin-bottom: 5rem; 
+    font-weight: 500;
+  }
+  .pricing__item h5 span {
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+  }
   .pricing__item p {
-    color: #545a79; }
+    color: #F6813B;
+    font-weight: 600; 
+  }
+
     .pricing__item p:first-of-type {
       margin-bottom: 26px; }
   .pricing__item .button {
-    margin-top: 35px;
+    margin-top: 5rem;
+
     margin-bottom: 30px; }
   .pricing__item ul {
     list-style-type: none;
@@ -1287,7 +1312,7 @@ header {
     padding: 0px; }
   .pricing__item li {
     list-style-position: outside;
-    font-weight: 700;
+    font-weight: 600;
     display: flex;
     align-items: center;
     margin-top: 0px;
@@ -1296,7 +1321,7 @@ header {
       width: 30px;
       height: 30px;
       background-color: #ffffff;
-      color: #3b368c;
+      color: #F36F25;
       display: inline-flex;
       align-items: center;
       justify-content: center;
@@ -1311,26 +1336,27 @@ header {
       box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15); }
     .pricing__item li:last-of-type {
       margin-bottom: 0px; }
-  .pricing__item:hover {
+  .pricing__item {
     -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2); }
 
 .pricing__item--standard {
   box-sizing: border-box;
-  background: linear-gradient(to right, #a5a0fc, #e685ea, #e1886e);
+  background: linear-gradient(to right, #F6813B, #937C6A, #F6813B);
   padding: 7px; }
+
   .pricing__item--standard .button {
-    background-color: #006bff;
+    background-color: #F6813B;
     color: #ffffff; }
     .pricing__item--standard .button:hover {
       background-color: #ffffff;
       color: #3b368c; }
   .pricing__item--standard li i {
-    background-color: #00cf86;
-    color: #ffffff; }
+    background-color: #ffffff;
+    color: #F6813B; }
   .pricing__item--standard .standard__inner {
     background-color: #ffffff;
-    padding: 33px;
+    padding: 80px 50px 5px 50px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
@@ -1411,7 +1437,7 @@ header {
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25); }
 
 .testimonial__content h6 {
-  color: #006bff;
+  color: #F6813B;
   margin-bottom: 24px; }
 .testimonial__content h2 {
   margin-bottom: 17px; }
@@ -1462,7 +1488,7 @@ header {
       -moz-border-radius: 30px;
       -ms-border-radius: 30px;
       border-radius: 30px;
-      background-color: #006bff;
+      background-color: #F6813B;
       color: #ffffff; }
       .app__area__content .button__group .button i {
         font-size: 18px; }
@@ -1470,7 +1496,7 @@ header {
         margin-right: 24px; }
       .app__area__content .button__group .button:hover {
         background-color: #ffffff;
-        color: #006bff; }
+        color: #F6813B; }
 
 .android {
   position: absolute;
@@ -1498,17 +1524,17 @@ footer {
   background-repeat: no-repeat;
   background-size: auto;
   background-position: left bottom 0px;
-  padding-top: 120px;
+  /* padding-top: 120px; */
   background-size: 100% auto !important;
   background-position: center bottom 0px !important; }
 
 .footer__cta {
   max-width: 1076px;
   margin: 0px auto;
-  padding: 80px 20px;
-  background-color: #ffffff;
-  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  padding: 40px 20px;
+  /* background-color: #ffffff; */
+  /* -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); */
   text-align: center; }
 
 .footer__social {
@@ -1523,7 +1549,8 @@ footer {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #000000;
+    border: 1px solid #6B6B6B;
+    background-color: #6B6B6B;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -1533,7 +1560,7 @@ footer {
     -o-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in; }
     .footer__social a i {
-      color: #000000;
+      color: #fff;
       font-size: 16px;
       -webkit-transition: all 0.3s ease-in;
       -o-transition: all 0.3s ease-in;
@@ -1541,8 +1568,8 @@ footer {
     .footer__social a:last-of-type {
       margin-right: 0px; }
     .footer__social a:hover {
-      background-color: #006bff;
-      border: 1px solid #006bff; }
+      background-color: #F6813B;
+      border: 1px solid #F6813B; }
       .footer__social a:hover i {
         color: #ffffff; }
 
@@ -1562,13 +1589,13 @@ footer {
     color: #000000; }
     .input__group input[type="email"]:focus {
       outline: none !important;
-      border: 1px solid #006bff !important; }
+      border: 1px solid #F6813B !important; }
     .input__group input[type="email"]::placeholder {
       color: #000000; }
   .input__group button {
     width: 50px;
     height: 50px;
-    background-color: #006bff;
+    background-color: #F6813B;
     line-height: 50px;
     text-align: center;
     display: inline-flex;
@@ -1592,15 +1619,15 @@ footer {
 
 .footer__links {
   text-align: center;
-  padding-top: 120px;
+  padding-top: 30px;
   padding-bottom: 30px;
-  border-bottom: 1px solid #000000; }
+   }
   .footer__links a {
     padding: 5px 30px;
     line-height: 16px;
     border-right: 1px solid #000000; }
     .footer__links a:hover {
-      color: #006bff; }
+      color: #F6813B; }
     .footer__links a:first-of-type {
       padding-left: 0px; }
     .footer__links a:last-of-type {
@@ -1610,7 +1637,7 @@ footer {
 .footer__credit {
   padding: 30px 12px 25px; }
   .footer__credit a:hover {
-    color: #006bff; }
+    color: #F6813B; }
 
 @media only screen and (max-width: 1199px) {
   footer {
