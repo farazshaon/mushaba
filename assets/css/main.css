@@ -968,9 +968,11 @@ header {
   margin-left: auto; */
  }
   .choice__title h6 {
-    font-size: 34px;
+    font-size: 3rem;
     color: #F6813B;
-    margin: 3rem 0; }
+    margin: 4rem 0px;
+    font-weight: 300;
+  }
   .choice__title h2 {
     margin-bottom: 3rem;
     font-size: 5rem;
@@ -1205,7 +1207,7 @@ header {
 
 .shot__slider__wrapper {
   position: relative;
-  margin-top: 35px; }
+  margin-top: 6rem; }
   .shot__slider__wrapper .slide__button {
     text-align: center;
     margin-top: 20px; }
@@ -1305,27 +1307,28 @@ header {
     border-radius: 20px;
     margin-bottom: 20px; }
   .pricing__item h6 {
-    font-size: 26px;
+    font-size: 34px;
     color: #000;
     margin-bottom: 22px; }
     .pricing__item h3 {
       color: #F6813B;
-      font-size: 40px;
+      font-size: 44px;
       margin-bottom: 22px; }
   .pricing__item h5 {
     color: #F6813B;
-    font-size: 24px !important;
+    font-size: 30px !important;
     margin-bottom: 5rem; 
     font-weight: 500;
   }
   .pricing__item h5 span {
     color: #000;
-    font-size: 24px !important;
+    font-size: 30px !important;
     font-weight: 500;
   }
   .pricing__item p {
     color: #F6813B;
-    font-weight: 600; 
+    font-weight: 400;
+    font-size: 24px; 
   }
 
     .pricing__item p:first-of-type {
@@ -1341,7 +1344,8 @@ header {
     padding: 0px; }
   .pricing__item li {
     list-style-position: outside;
-    font-weight: 600;
+    font-weight: 400;
+    font-size: 24px;
     display: flex;
     align-items: center;
     margin-top: 0px;
@@ -1833,8 +1837,8 @@ Check box
 .form_group label {
   position: relative;
   cursor: pointer;
-  font-weight: 600;
-  font-size: 24px;
+  font-weight: 400;
+  font-size: 3rem;
 }
 
 .form_group label:before {
@@ -1843,7 +1847,7 @@ Check box
   background-color: transparent;
   border: 3px solid #000;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
-  padding: 12px;
+  padding: 16px;
   display: inline-block;
   position: relative;
   vertical-align: middle;
@@ -1857,9 +1861,9 @@ Check box
   display: block;
   position: absolute;
   top: -10px;
-  left: 18px;
-  width: 12px;
-  height: 30px;
+  left: 20px;
+  width: 15px;
+  height: 34px;
   border: solid #F6813B;
   border-width: 0 4px 4px 0;
   transform: rotate(45deg);
