@@ -244,7 +244,7 @@ h6 > a {
   background-color: #ffffff;
   padding: 11px 20px;
   text-align: center;
-  color: #3b368c;
+  color: #000;
   font-size: 16px;
   font-weight: 600;
   border: none;
@@ -730,6 +730,7 @@ header {
   font-size: 48px;
   font-weight: 400;
 }
+
 .invest__content h6 {
   margin-bottom: 28px;
   color: #F6813B; }
