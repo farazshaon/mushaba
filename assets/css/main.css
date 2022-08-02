@@ -1868,3 +1868,68 @@ Check box
   border-width: 0 4px 4px 0;
   transform: rotate(45deg);
 }
+
+/*-----------------------------
+Responsive
+-------------------------------*/
+@media only screen and (max-width: 980px) {
+  .switch {
+    margin-right: 1rem;
+    margin-left: 0rem;
+}
+
+.hero__content h3 {
+  font-size: 28px;
+}
+.hero__content h2 {
+  font-size: 40px;
+}
+
+.hero__content h2 span {
+  font-size: 40px;
+}
+.hero__content p {
+  font-size: 24px;
+}
+
+.invest-title {
+  font-size: 32px;
+}
+
+.invest__feature__item__content h3 {
+  font-size: 28px;
+}
+.wallet__content h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.wallet__area {
+  padding: 0px 0px;
+}
+.wallet__content li {
+  font-size: 1.6rem;
+}
+.design__content h2 {
+  font-size: 3rem;
+}
+.choice__title h2 {
+  font-size: 3rem;
+}
+.fw_2 {
+  font-size: 2rem !important;
+}
+.choice__title h6 {
+  font-size: 2rem;
+
+}
+.form_group label {
+  font-size: 2rem;
+}
+.pricing__item--standard .standard__inner {
+  padding: 35px;
+}
+.pricing__item--standard {
+  margin: 2rem 0;
+}
+}
