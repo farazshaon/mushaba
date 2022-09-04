@@ -1717,99 +1717,23 @@ footer {
 /*------------------------------
 
 -----------------------------------*/
+.language-btn {
+  border: 1px solid #F36F25;
+  border-radius: 5px;
+  margin: 0;
+}
+.language-btn a {
+  padding: 0 10px;
+  border-radius: 4px;
+}
 .switch {
   position: relative;
   display: inline-block;
   margin-right: 3rem;
   margin-left: 6rem;
 }
-  
-.switch > span {
-  position: absolute;
-  top: 5px;
-  pointer-events: none;
-  font-family: 'Helvetica', Arial, sans-serif;
-  font-weight: bold;
-  font-size: 14px;
-  text-transform: uppercase;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, .06);
-  width: 50%;
-  text-align: center;
-  font-weight: normal;
-}
-  
-input.check-toggle-round-flat:checked ~ .off {
-  color: #fff;
-}
-  
-input.check-toggle-round-flat:checked ~ .on {
-  color: #F36F25;
-}
+ 
 
-.switch > span.on {
-  left: 0;
-  color: #fff;
-}
-
-.switch > span.off {
-  right: 0;
-  padding-right: 4px;
-  color: #F36F25;
-}
-
-.check-toggle {
-  position: absolute;
-  margin-left: -9999px;
-  visibility: hidden;
-}
-.check-toggle + label {
-  display: block;
-  position: relative;
-  cursor: pointer;
-  outline: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-input.check-toggle-round-flat + label {
-  padding: 2px;
-  width: 97px;
-  height: 29px;
-  border: 1px solid #F36F25;
-  border-radius: 5px;
-  margin: 0;
-}
-input.check-toggle-round-flat + label:before, input.check-toggle-round-flat + label:after {
-  display: block;
-  position: absolute;
-  content: "";
-}
-
-input.check-toggle-round-flat + label:before {
-  top: 0px;
-  left: 0px;
-  bottom: 0px;
-  right: 0px;
-  border-radius: 60px;
-}
-input.check-toggle-round-flat + label:after {
-  top: 0px;
-  left: 0px;
-  bottom: 0px;
-  right: 0;
-  width: 51px;
-  background-color: #68351A;
-  -webkit-transition: margin 0.2s;
-  -moz-transition: margin 0.2s;
-  -o-transition: margin 0.2s;
-  transition: margin 0.2s;
-  border-radius: 5px;
-}
-input.check-toggle-round-flat:checked + label:after {
-  margin-left: 44px;
-}
 .login-btn {
   color: #fff;
   background-color: #F6813B;
